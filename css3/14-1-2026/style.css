@@ -1,0 +1,25 @@
+button:hover{
+background-color: rgb(17, 249, 71);
+color: rgb(216, 208, 208);
+border: 2px solid red;
+}
+button:active{
+background-color: rgb(182, 225, 28);
+color: brown;
+border: 2px solid red;
+}
+button:focus{
+background-color: rgb(92, 100, 88);
+color: brown;
+border: 2px solid red;    
+}
+p{
+    color: blue;
+}
+.Para{
+    color: red;
+}
+p[class="Para"]{
+    font-size: 30px;
+    color: green;
+}

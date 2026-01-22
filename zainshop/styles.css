@@ -76,7 +76,7 @@ nav ul li a:hover {
     cursor: pointer;
 }
 
-.hero {
+/* .hero {
     background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 50%, #fecfef 100%);
     color: #fff;
     text-align: center;
@@ -758,4 +758,4 @@ button {
     .category-grid, .product-grid {
         grid-template-columns: 1fr;
     }
-}
+} */

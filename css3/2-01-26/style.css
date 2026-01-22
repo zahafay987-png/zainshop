@@ -1,0 +1,40 @@
+@import url(./typography.css);
+ 
+ :root{
+    /* global scope */
+    --primary: red;
+}
+h3{
+    color: black
+    border : 2px solid var(--primary);
+    background-color: var(--primary);
+}
+p{
+    color: var(--primary);
+}
+h2{ 
+    local scope
+    --mygreen : blueviolet;
+    color:black ;
+    border-color: var(--mygreen);
+    background-color: var(--mygreen);
+}
+img:hover{ 
+   
+    transition: transform 2s;
+    transform: rotate(360deg);
+
+}
+h1{
+    color:red;
+    font-family: 'Courier New', Courier, monospace;
+}
+h1,p{
+    color: aqua;
+}
+h2#head{
+    color : chocolate;
+}
+#head{
+    color: chocolate;
+}
